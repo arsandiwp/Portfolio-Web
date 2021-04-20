@@ -1,0 +1,174 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   /* background-color: black; */
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   color: black;
+}
+
+section{
+   padding-top: 200px;
+}
+
+.navbar{
+   background-color: black;
+}
+
+.navbar-brand{
+   font-family: 'Lobster', cursive;
+   color: tomato;
+   font-size: 50px;
+}
+
+.nav-item a{
+   color: white;
+   font-size: 20px;
+   transition: 0.5s;
+}
+
+.home{
+   padding-top: 200px;
+}
+
+.home h1{
+   font-size: 80px;
+   padding: 30px 0;
+}
+
+.home .social-media a{
+   color: black;
+   transition: 0.5s;
+}
+
+.home .social-media a:hover{
+   color: tomato;
+}
+
+.nav-item a:hover{
+   color: tomato;
+}
+
+.home img{
+   width: 300px;
+}
+
+.fab{
+   padding: 10px;
+}
+
+.about{
+   background-color: black;
+   color: white;
+}
+
+.about h1{
+   font-family: 'Lobster', cursive;
+}
+
+.about hr{
+   width: 30%;
+   display: inline-block;
+   height: 2px;
+}
+
+.about img{
+  width: 500px;
+}
+
+.about .btn{
+   width: 200px;
+   transition: 0.5s;
+}
+
+.about .btn:hover{
+   background-color: tomato;
+   border-color: tomato;
+   color: white;
+}
+
+.skill h1{
+   font-family: 'Lobster', cursive;
+}
+
+.skill hr{
+   width: 30%;
+   display: inline-block;
+   height: 2px;
+}
+
+.skill .fab{
+   color: tomato;
+}
+
+.progress-bar{
+   background-color: tomato;
+}
+
+.portfolio{
+   background-color: black;
+   color: white;
+}
+
+.portfolio h1{
+   font-family: 'Lobster', cursive;
+}
+
+.portfolio hr{
+   width: 30%;
+   display: inline-block;
+   height: 2px;
+}
+
+.portfolio .btn{
+   transition: 0.5s;
+}
+
+.portfolio .btn:hover{
+   background-color: tomato;
+   border-color: tomato;
+}
+
+.card img{
+   height: 400px;
+}
+
+.card-title{
+   color: black;
+}
+
+.card-text{
+   color: black;
+}
+
+.contact h1{
+   font-family: 'Lobster', cursive;
+}
+
+.contact hr{
+   width: 30%;
+   display: inline-block;
+   height: 2px;
+}
+
+.form-control{
+   height: 60px;
+}
+
+.form-control:hover{
+   border: 2px solid tomato;
+}
+
+.contact .btn{
+   height: 50px;
+   width: 100%;
+   transition: 0.5s;
+}
+
+.contact .btn:hover{
+   background-color: tomato;
+   border-color: tomato;
+}
